@@ -8,6 +8,7 @@ http://snowman-88888.hatenablog.com/entry/2016/03/08/115918
 解決法としては、
 
 from PIL import ImageFile
+
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 を追加するだけで良いらしい。
